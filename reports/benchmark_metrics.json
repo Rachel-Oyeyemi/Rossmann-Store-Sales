@@ -1,0 +1,68 @@
+{
+  "benchmark_scope": "Deterministic Rossmann-like demo data",
+  "primary_metric": "RMSPE",
+  "models": [
+    {
+      "model": "Ridge Regression",
+      "split": "validation",
+      "rmspe": 0.11252261708804316,
+      "rmse": 768.8460754548922,
+      "mae": 526.3368259693037,
+      "mape": 0.08867069077343767,
+      "r2": 0.9313009925076082
+    },
+    {
+      "model": "Ridge Regression",
+      "split": "test",
+      "rmspe": 0.11505234689263484,
+      "rmse": 737.74517325749,
+      "mae": 521.6683275794264,
+      "mape": 0.09091692111085457,
+      "r2": 0.9370580804715619
+    },
+    {
+      "model": "XGBoost",
+      "split": "validation",
+      "rmspe": 0.11698885254408319,
+      "rmse": 759.9603571843054,
+      "mae": 528.3747619628906,
+      "mape": 0.09106391166040308,
+      "r2": 0.9328797546358305
+    },
+    {
+      "model": "XGBoost",
+      "split": "test",
+      "rmspe": 0.11795110783461447,
+      "rmse": 788.8779678472692,
+      "mae": 537.7604738507952,
+      "mape": 0.09239705204594391,
+      "r2": 0.9280307654053996
+    }
+  ],
+  "recommended_model": "Ridge Regression",
+  "quality": {
+    "train_input_rows": 46160,
+    "store_input_rows": 80,
+    "train_duplicate_rows": 0,
+    "store_duplicate_rows": 0,
+    "train_missing_cells": 0,
+    "store_missing_by_column": {
+      "Store": 0,
+      "StoreType": 0,
+      "Assortment": 0,
+      "CompetitionDistance": 0,
+      "CompetitionOpenSinceMonth": 8,
+      "CompetitionOpenSinceYear": 8,
+      "Promo2": 0,
+      "Promo2SinceWeek": 44,
+      "Promo2SinceYear": 44,
+      "PromoInterval": 44
+    },
+    "output_rows": 46160,
+    "closed_rows": 5904,
+    "zero_sales_rows": 5904,
+    "date_min": "2014-01-01",
+    "date_max": "2015-07-31",
+    "stores": 80
+  }
+}

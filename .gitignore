@@ -1,0 +1,30 @@
+# Data and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/evaluation_partitions.joblib
+models/*.json
+!models/model_metadata.json
+!models/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Notebooks / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db

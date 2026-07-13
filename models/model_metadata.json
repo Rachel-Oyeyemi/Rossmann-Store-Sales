@@ -1,0 +1,11 @@
+{
+  "target": "Sales",
+  "baseline": "Ridge Regression",
+  "advanced": "XGBoost",
+  "primary_metric": "RMSPE",
+  "demo_recommended_model": "Ridge Regression",
+  "split_strategy": "chronological 42-day validation and 42-day test",
+  "target_transform": "log1p",
+  "excluded_leakage_feature": "Customers",
+  "benchmark_scope": "Deterministic Rossmann-like demo data"
+}

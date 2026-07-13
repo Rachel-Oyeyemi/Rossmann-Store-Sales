@@ -1,0 +1,25 @@
+{
+  "train_input_rows": 46160,
+  "store_input_rows": 80,
+  "train_duplicate_rows": 0,
+  "store_duplicate_rows": 0,
+  "train_missing_cells": 0,
+  "store_missing_by_column": {
+    "Store": 0,
+    "StoreType": 0,
+    "Assortment": 0,
+    "CompetitionDistance": 0,
+    "CompetitionOpenSinceMonth": 8,
+    "CompetitionOpenSinceYear": 8,
+    "Promo2": 0,
+    "Promo2SinceWeek": 44,
+    "Promo2SinceYear": 44,
+    "PromoInterval": 44
+  },
+  "output_rows": 46160,
+  "closed_rows": 5904,
+  "zero_sales_rows": 5904,
+  "date_min": "2014-01-01",
+  "date_max": "2015-07-31",
+  "stores": 80
+}
